@@ -1,0 +1,38 @@
+###
+
+POST http://localhost:3001/accounts
+Content-Type: application/json
+
+{
+    "firstName": "Amanda",
+    "lastName": "zhang",
+    "email": "amanda@example.com",
+    "pho0.neNumber": "891-462-7810",
+    "password": "hkdaskjbsakj"
+}
+
+###
+
+DELETE http://localhost:3001/accounts/62320f508887d350d927ad8f
+
+
+###
+
+// test savedJobs
+
+POST http://localhost:3001/savedJobs
+Content-Type: application/json
+
+{
+    "title": "software intern",
+    "location": "boston, MA",
+    "description": "salkdldafbfdlabkabslkfdbdsf",
+    "accountID": "622bc109148ff5667f9723d9",
+    "url": "http://www.google.com"
+}
+
+###
+
+DELETE http://localhost:3001/savedJobs/6244425a6cafc2126c4c9585
+
+
